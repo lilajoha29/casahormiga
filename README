@@ -1,0 +1,69 @@
+## 🐜 Casa Hormiga 🐜
+Es una empresa que busca solución a necesidades por medio del diseño de tipo artístico, con un producto funcional, estético y de esta forma ayudar a plasmar sueños e ideas.
+
+It is a company that brings solutions through artistic design with functional and stetic products, this way it helps to create dreams and ideas.
+
+## Responsive 💻📲
+Este proyecto tiene responsive Version para Desktop, Tablet y Moviles.
+
+This project has responsive version for desktop, tablet and phone.
+
+## Languages  🛠 
+ 
+las herramientas que se utilizaron para crear este proyecto son: 
+ 
+    - [HTML] - Usada para el contenido o esqueleto. 
+    - [CSS] - Usada para estilos en el contenido de la pagina. 
+    - [JS] - Usada para dar funcionalidad. 
+    - [REACT] - Usada para el orden del proyecto. 
+
+Tools used for creating this project were:
+
+    - [HTML] Used for content or frame.
+    - [CSS] Used for content style on the website
+    - [JS] Used for functionality
+    - [REACT] Used for the order on the project
+
+
+
+## Clone 📋 
+ 
+Que cosas necesitas para instalar el software y como visualizarla en el dispositivo local. 
+
+  - Crear una Carpeta desde Git Bash. 
+  - cd "nombre del lugar donde quieres la carpeta". 
+  - mk "nombre de la carpeta".  
+  - git clone https://github.com/lilajoha29/casahormiga.git. 
+  - Abrir el clon. 
+  - Ya clonado el repositorio se ejecuta en el dispositivo local
+
+What you need to install the software and how to visualize the website on a local device.
+
+  - Create a folder from Git Bash
+  - cd (location where you want to create the folder)
+  - mk (name of the folder)
+  - git clone https://github.com/lilajoha29/casahormiga.git.
+  - Open the clone
+  - Once the repository is cloned it is run on the local device
+
+## Libraries and Framework used in this project 📚
+
+    - Tailwind CSS - Styles FrameWork.
+          npx tailwindcss init
+    - Formik - Form FrameWork.
+          npm install formik –save
+    - React-router-dom - npm package.
+          npm install react-router-dom@6
+    - React - icons - Library React.
+    - Vite project - Library React.
+    - React - Library JavaScrip.
+
+## Deploy 📦 
+ 
+El despliegue esta apto para ejecutarse https://casahormiga.netlify.app/
+ 
+Deploy is ready for running https://casahormiga.netlify.app/
+ 
+## Authors✒️
+ 
+- @lilajoha29 (https://github.com/lilajoha29)

@@ -1,8 +1,11 @@
 import React from 'react'
+import Header from './Header'
 
 const Brands3 = () => {
   return (
-    <div>Brands3</div>
+    <div>
+      <Header />
+    </div>
   )
 }
 

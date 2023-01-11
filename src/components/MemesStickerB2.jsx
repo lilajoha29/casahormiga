@@ -1,8 +1,11 @@
 import React from 'react'
+import Header from './components/Header'
 
 const MemesStickerB2 = () => {
   return (
-    <div>MemesStickerB2</div>
+    <div>
+      <Header />
+    </div>
   )
 }
 

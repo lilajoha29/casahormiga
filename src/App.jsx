@@ -11,12 +11,15 @@ function App() {
 
   return (
     <div>
+      
       <Routes>
-        <Route path='/' element={<Brands1 />} />
+        <Route path='/' element={<Home />} />
+        <Route path='b1' element={<Brands1 />} />
         <Route path='b2' element={<Brands2 />} />
         <Route path='b3' element={<Brands3 />} />
         <Route path='shop' element={<Shopping />} />
       </Routes>
+      
     </div>
       
   )

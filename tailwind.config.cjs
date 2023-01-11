@@ -12,9 +12,15 @@ module.exports = {
         'black': '#000000',
       },
       fontFamily: {
-        Papyrus: ['"Papyrus","Handlee"']
+        Papyrus: ['"Papyrus","Lora"']
+      },
+      backgroundImage: {
+        'banner': "url('/src/assets/logos/Banner.png')",
       },
     },
-  },
-  plugins: [],
+    variants: {
+      borderWidth: ['responsive', 'hover', 'focus'],
+    },
+    plugins: [],
+  }
 }

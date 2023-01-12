@@ -29,17 +29,16 @@ const Header = () => {
         {isOpen === true ? (
           <div className='flex flex-col rounded-bl-full bg-logo h-96 absolute w-full  '>
             <div className='pt-32 font-Papyrus text-lg text-white'> 
-              <Link to="b1" className=''>
+              <Link to="/Brands1" className=' max-w-fit'>
                 <h1 className="m-7 ml-16 ">Alcancias</h1>
-              {/* <HiMenu/> */}
               </Link>
-              <Link to="b2">
+              <Link to="/Brands2">
                 <h1 className="m-7 ml-28  ">Stickers Adhesivos</h1>
               </Link>
-              <Link to="b3">
+              <Link to="/Brands3">
                 <h1 className="m-7 ml-44 ">Personalizado</h1>
               </Link>
-              <Link to="shop" >
+              <Link to="/Shopping" >
                 <HiShoppingCart className='m-7 ml-72 text-3xl ' />
               </Link>
             </div>   

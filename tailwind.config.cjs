@@ -10,6 +10,7 @@ module.exports = {
         'logo': '#FE000D',
         'white': '#FFFFFF',
         'black': '#000000',
+        'button': 'rgba(254, 0, 13, 0.23)',
       },
       fontFamily: {
         Papyrus: ['"Papyrus","Lora"']

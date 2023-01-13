@@ -33,7 +33,7 @@ const Header = () => {
                 <h1 className="m-7 ml-16 ">Alcancias</h1>
               </Link>
               <Link to="/Brands2">
-                <h1 className="m-7 ml-28  ">Stickers Adhesivos</h1>
+                <h1 className="m-7 ml-28  ">Crafter</h1>
               </Link>
               <Link to="/Brands3">
                 <h1 className="m-7 ml-44 ">Personalizado</h1>

@@ -20,14 +20,18 @@ const Home = () => {
           <img
             src={Moneybox}
             alt="CasaHormiga"
-            className=' h-28 w-28 m-5 mr-0 rounded-full shadow-lg'></img>
+            className='  h-28 w-28 m-5 mr-0 rounded-full shadow-lg'></img>
+          {/* <img
+            src={Stiker}
+            alt="CasaHormiga"
+            className=' absolute hover:-translate-y-full h-28 w-28 m-5 mr-0 rounded-full shadow-lg'></img> */}
         </Link>
         <Link to="/Brands2" className='flex flex-row justify-around'>
           <img
             src={Stiker}
             alt="CasaHormiga"
             className=' h-28 w-28 m-5 mr-0 rounded-full shadow-lg'></img>
-          <h1 className='py-12 text-xl font-Papyrus'>Stickers Adhesivos</h1>
+          <h1 className='py-12 text-xl font-Papyrus'>Crafter</h1>
         </Link>
         <Link to="/Brands3" className='flex flex-row justify-around'>
           <h1 className='py-12 text-xl font-Papyrus'>Personalizado </h1>

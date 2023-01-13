@@ -13,7 +13,7 @@ const Brands2 = () => {
     <div>
       <Header />
       <div className='flex flex-col items-center justify-center p-10  font-Papyrus'>
-        <h1 className='p-5 text-xl'>Stickers Adhesivos</h1>
+        <h1 className='p-5 text-xl'>Crafter</h1>
         <h3 className='text-center '>Las impresiones en vinilo solucionan tu vida ya sea para lo que necesites puedes escoger la temática que necesites y serán diseñadas solo para ti y adornes lo que quieras y personaliza tu hogar.</h3>
       </div>
       <div className='grid grid-cols-2 px-3 py-5'>

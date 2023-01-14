@@ -38,7 +38,7 @@ const Brands1 = () => {
             alt="Moneybox Level2"
             className=' h-28 w-28 m-5 mr-0 rounded-lg shadow-lg'></img>
           <h2 className='font-Papyrus'>Alcancía Doble Nivel 2</h2>
-          <h2 className='font-Papyrus'>$ 30</h2>
+          <h2 className='font-Papyrus'>$ 35</h2>
         </Link>
       </div>
       <Footer />

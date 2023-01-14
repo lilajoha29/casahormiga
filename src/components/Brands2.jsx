@@ -23,7 +23,7 @@ const Brands2 = () => {
             alt="buffet Sticker"
             className=' h-28 w-28 m-5 mr-0 rounded-lg shadow-lg'></img>
           <h2 className='font-Papyrus'>Nombres Alacena</h2>
-          <h2 className='font-Papyrus'>$ 15 - $ 30</h2>
+          <h2 className='font-Papyrus'>$ 5 - $ 10</h2>
         </Link>
         <Link to="/SignStickerB2" className='flex flex-col items-center justify-center py-3'>
           <img
@@ -31,7 +31,7 @@ const Brands2 = () => {
             alt="Sign Sticker"
             className=' h-28 w-28 m-5 mr-0 rounded-lg shadow-lg'></img>
           <h2 className='font-Papyrus'>Símbolos</h2>
-          <h2 className='font-Papyrus'>$ 15 - $ 30</h2>
+          <h2 className='font-Papyrus'>$ 5 - $ 10</h2>
         </Link>
         <Link to="/MemesStickerB2" className='flex flex-col items-center justify-center py-3'>
           <img
@@ -39,7 +39,7 @@ const Brands2 = () => {
             alt="memes Stiker"
             className=' h-28 w-28 m-5 mr-0 rounded-lg shadow-lg'></img>
           <h2 className='font-Papyrus'>Memes</h2>
-          <h2 className='font-Papyrus'>$ 15 - $ 30</h2>
+          <h2 className='font-Papyrus'>$ 5 - $ 10</h2>
         </Link>
         <Link to="/NameStickerB2" className='flex flex-col items-center justify-center py-3'>
           <img
@@ -47,7 +47,7 @@ const Brands2 = () => {
             alt="name Sticker"
             className=' h-28 w-28 m-5 mr-0 rounded-lg shadow-lg'></img>
           <h2 className='font-Papyrus'>Nombres</h2>
-          <h2 className='font-Papyrus'>$ 15 - $ 30</h2>
+          <h2 className='font-Papyrus'>$ 5 - $ 10</h2>
         </Link>
         <Link to="/GameStickerB2"
           className='flex flex-col items-center justify-center py-3 col-span-2'>
@@ -56,7 +56,7 @@ const Brands2 = () => {
             alt="game Stiker"
             className=' h-28 w-28 m-5 mr-0 rounded-lg shadow-lg'></img>
           <h2 className='font-Papyrus'>Video juegos</h2>
-          <h2 className='font-Papyrus'>$ 15 - $ 30</h2>
+          <h2 className='font-Papyrus'>$ 30 - $ 50</h2>
         </Link>
       </div>
       <Footer />

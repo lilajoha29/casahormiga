@@ -9,6 +9,7 @@ const MoneyboxN1B1 = () => {
       <div className="flex flex-col items-center justify-center p-10  font-Papyrus">
         <h1 className='font-Papyrus py-5'>
           Alcancía Sencilla Nivel 1</h1>
+        <h2 className='font-Papyrus'>$ 30</h2>
         <h2 className='font-Papyrus'>
           100% reutilizable e ideal para regalar y decorar espacios propios</h2>
         <h2 className='font-Papyrus'>
@@ -22,6 +23,7 @@ const MoneyboxN1B1 = () => {
       <div className=''>
 
       </div>
+      <button className='m-auto p-3 w-fit shadow-inner rounded-lg border border-button focus:text-white focus:bg-logo'>Añadir a el Carrito</button>
       <Footer />
     </div>
   )

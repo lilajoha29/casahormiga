@@ -20,7 +20,7 @@ const Home = () => {
           <img
             src={Moneybox}
             alt="CasaHormiga"
-            className='  h-28 w-28 m-5 mr-0 rounded-full shadow-lg'></img>
+            className=' h-28 w-28 m-5 mr-0 rounded-full shadow-lg'></img>
           {/* <img
             src={Stiker}
             alt="CasaHormiga"

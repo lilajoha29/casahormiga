@@ -11,7 +11,7 @@ const Brands3 = () => {
       <Header />
       <div className='flex flex-col items-center justify-center p-10  font-Papyrus'>
         <h1 className='p-5 text-xl'>Personalizado</h1>
-        <h3 className='text-center '>En tu empresa puedes solucionar todo el branding que necesites y crezcan tus clientes, desarrollando impresiones en vinilo que puedes usar de la forma que mas te convenga y con el diseño ya sea de tu logo o de lo que desees y es la mejor solución para las fiestas de cumpleaños</h3>
+        <h3 className='text-center py-5'>En tu empresa puedes solucionar todo el branding que necesites y crezcan tus clientes, desarrollando impresiones en vinilo que puedes usar de la forma que mas te convenga y con el diseño ya sea de tu logo o de lo que desees y es la mejor solución para las fiestas de cumpleaños</h3>
         <h3 className='text-center '>estos son productos que se diseñan 100% de forma personalizada, asi que es necesario que expreses tus ideas y realicemos una cotización con la necesidad exacta que tienes.</h3>
       </div>
       <div className='flex flex-col px-3 py-5'>

@@ -27,7 +27,7 @@ const Header = () => {
           onClick={() => setIsOpen(!isOpen)}
         />
         {isOpen === true ? (
-          <div className='flex flex-col rounded-bl-full bg-logo h-96 absolute w-full  '>
+          <div className='flex flex-col z-30 rounded-bl-full bg-logo h-96 absolute w-full  '>
             <div className='pt-32 font-Papyrus text-lg text-white'> 
               <Link to="/Brands1" className=' max-w-fit'>
                 <h1 className="m-7 ml-16 ">Alcancias</h1>

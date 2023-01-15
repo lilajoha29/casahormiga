@@ -37,9 +37,9 @@ const MoneyboxPigB1 = () => {
     <div>
       <Header />
       <div className=''>
-        <div className='max-w-[1400px] h-[780px] w-full m-auto py-16 px-4 relative '>
+        {/* carrusel */}
+        <div className='w-full m-auto pt-16 px-4 relative '>
           <div
-            // style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
             className=' rounded-2xl bg-center bg-cover duration-500'
           >
             <img  classname='w-44 h-44' src={slides[currentIndex]}></img>
@@ -64,10 +64,10 @@ const MoneyboxPigB1 = () => {
             ))}
           </div>
         </div>        
-        <div className="flex flex-col items-center justify-center p-10  font-Papyrus">
-          <h1 className='font-Papyrus py-5'>
+        <div className="flex flex-col p-5 font-Papyrus ">
+          <h1 className='font-Papyrus py-5 text-2xl'>
             Alcancía Marrano</h1>
-          <h2 className='font-Papyrus'>$ 30</h2>
+          <h2 className='font-Papyrus text-2xl'>$ 30</h2>
           <h2 className='font-Papyrus py-5'>
             100% reutilizable e ideal para regalar y decorar espacios propios</h2>
           <h2 className='font-Papyrus'>
@@ -75,12 +75,13 @@ const MoneyboxPigB1 = () => {
           <h2 className='font-Papyrus'>
             Material: MDF de 3mm de espesor</h2>
         </div>
-        <div className=''>
+        <div className='flex flex-col px-5 font-Papyrus '>
           <h2 className='font-Papyrus'>
             Diseño único de acuerdo a tu gusto o necesidad asi que escoge la temática
           </h2>
+          {/* en este espacio va el input */}
         </div>
-        <button className='m-auto p-3 w-fit shadow-inner rounded-lg border border-button focus:text-white focus:bg-logo'>Añadir a el Carrito</button>
+        <button className=' m-5 p-3 w-fit shadow-inner rounded-lg border border-button focus:text-white focus:bg-logo'>Añadir a el Carrito</button>
       </div>
       <Footer />
     </div>

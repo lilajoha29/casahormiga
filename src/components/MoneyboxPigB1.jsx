@@ -7,7 +7,9 @@ import MoneyboxPig from '../assets/brands1/moneyboxPig.jpeg'
 import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
 import { RxDotFilled } from 'react-icons/rx';
 
-const MoneyboxPigB1 = () => {
+const MoneyboxPigB1 = ({ data, addToCart }) => {
+    // let{id, name, price, input} = data
+
 
   const slides = [
     MoneyboxPig,
@@ -75,13 +77,10 @@ const MoneyboxPigB1 = () => {
           <h2 className='font-Papyrus'>
             Material: MDF de 3mm de espesor</h2>
         </div>
-        <div className='flex flex-col px-5 font-Papyrus '>
-          <h2 className='font-Papyrus'>
-            Diseño único de acuerdo a tu gusto o necesidad asi que escoge la temática
-          </h2>
-          {/* en este espacio va el input */}
-        </div>
-        <button className=' m-5 p-3 w-fit shadow-inner rounded-lg border border-button focus:text-white focus:bg-logo'>Añadir a el Carrito</button>
+          <button 
+          className=' m-5 p-3 w-fit shadow-inner rounded-lg border border-button focus:text-white focus:bg-logo'
+          // onClick={() => addToCart(id)}
+          >Añadir a el Carrito</button>
       </div>
       <Footer />
     </div>

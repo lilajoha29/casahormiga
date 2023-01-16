@@ -40,9 +40,9 @@ const MoneyboxN2B1 = ({ data, addToCart }) => {
   return (
     <div>
       <Header />
-      <div className=''>
+      <div className='md:flex'>
         {/* carrusel */}
-        <div className='w-full m-auto pt-16 px-4 relative '>
+        <div className='w-full m-auto pt-16 px-4 relative md:py-16 md:px-2 '>
           <div
             className=' rounded-2xl bg-center bg-cover duration-500'
           >
@@ -69,7 +69,7 @@ const MoneyboxN2B1 = ({ data, addToCart }) => {
           </div>
         </div>
 
-        <div className="flex flex-col p-5 font-Papyrus">
+        <div className="flex flex-col p-5 font-Papyrus md:py-16">
           <h1 className='font-Papyrus py-5 text-2xl'>
             Alcancía Doble Nivel 2
             {/* {name} */}
@@ -83,17 +83,19 @@ const MoneyboxN2B1 = ({ data, addToCart }) => {
             Medidas: ancho 17cm, alto 20cm, largo 18cm</h2>
           <h2 className='font-Papyrus'>
             Material: MDF de 3mm de espesor</h2>
+          <div className='flex flex-col font-Papyrus '>
+            <h2 className='font-Papyrus py-5'>
+              Diseño único de acuerdo a tu gusto o necesidad asi que escoge la temática
+            </h2>
+            {/* <input type='text' className='' placeholder=''></input> */}
+            {/* en este espacio va el input */}
+            <button
+              // onClick={() => addToCart(id)}
+              className='m-5 p-3 w-fit shadow-inner rounded-lg border border-button focus:text-white focus:bg-logo'>Añadir a el Carrito</button>
+          </div>  
         </div>
-        <div className='flex flex-col px-5 font-Papyrus '>
-          <h2 className='font-Papyrus'>
-            Diseño único de acuerdo a tu gusto o necesidad asi que escoge la temática
-          </h2>
-          <input type='text' className='' placeholder=''></input>
-          {/* en este espacio va el input */}
-        </div>
-        <button
-          // onClick={() => addToCart(id)}
-          className='m-5 p-3 w-fit shadow-inner rounded-lg border border-button focus:text-white focus:bg-logo'>Añadir a el Carrito</button>
+        
+        
       </div>
       <Footer />
     </div>

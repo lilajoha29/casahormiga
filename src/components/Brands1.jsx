@@ -12,19 +12,20 @@ const Brands1 = () => {
     <div>
       <Header />
       <div className='flex flex-col items-center justify-center p-10  font-Papyrus'>
-        <h1 className='p-5 text-xl'>Alcancías</h1>
-        <h3 className='text-center '>Tienes una variedad de alcancías para escoger y ya sea escoger una temática para sea diseñado solo para ti y logres ahorrar tus sueños.</h3>
+        <h1 className='p-5 text-xl md:text-2xl'>Alcancías</h1>
+        <h3 className='text-center md:text-lg'>Tienes una variedad de alcancías para escoger y ya sea escoger una temática para sea diseñado solo para ti y logres ahorrar tus sueños.</h3>
       </div>
-      <div className='flex flex-col px-3 py-5'>
-        <Link to="/MoneyboxPigB1" className='flex flex-col items-center justify-center py-3'>
+      <div className='flex flex-col px-3 py-5 sm:grid sm:grid-rows-2 lg:flex lg:flex-row lg:justify-center lg:px-36  lg:pb-20 '>
+        <Link to="/MoneyboxPigB1"
+          className='flex flex-col items-center justify-center py-3 lg:px-10 '>
           <img
             src={Pig}
             alt="Moneybox Pig"
-            className=' h-28 w-28 m-5 mr-0 rounded-lg shadow-lg'></img>
+            className=' h-28 w-28 m-5 mr-0 rounded-lg shadow-lg '></img>
           <h2 className='font-Papyrus'>Alcancía Marrano</h2>
           <h2 className='font-Papyrus'>$ 30</h2>
         </Link>
-        <Link to="/MoneyboxN1B1" className='flex flex-col items-center justify-center py-3'>
+        <Link to="/MoneyboxN1B1" className='flex flex-col items-center justify-center py-3 lg:px-10'>
           <img
             src={Level1}
             alt="Moneybox Level1"
@@ -32,7 +33,8 @@ const Brands1 = () => {
           <h2 className='font-Papyrus'>Alcancía Sencilla Nivel 1</h2>
           <h2 className='font-Papyrus'>$ 30</h2>
         </Link>
-        <Link to="/MoneyboxN2B1" className='flex flex-col items-center justify-center py-3'>
+        <Link to="/MoneyboxN2B1"
+          className='flex flex-col items-center justify-center py-3 sm:col-span-2 lg:px-10'>
           <img
             src={Level2}
             alt="Moneybox Level2"

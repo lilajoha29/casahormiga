@@ -40,22 +40,23 @@ const Shopping = () => {
     <div>
       <Header />
       <div className='p-10'>
-        <h1 className=' text-lg'> Lista de Pedidos</h1>
+        <h1 className=' text-lg font-Papyrus 2xl:text-xl 2xl:px-44'> Lista de Pedidos</h1>
       </div>
-      <div className='flex flex-col rounded-lg border border-button p-5 m-5 '>
+      <div className='flex flex-col rounded-lg border border-button p-5 m-5 lg:mx-20 2xl:mx-44'>
         <div className=''>
           <h2 className='border-b border-button font-Papyrus'>Producto</h2>
           {cart.map((item, index) => (
             <CartItem key={index} data={item} delFromCart={delFromCart} />
           ))} 
           
-          <button className='' alt='borrar todos los pedidos' onClick={clearCart}><FaTrashAlt />
+          <button className='pt-2' alt='borrar todos los pedidos' onClick={clearCart}><FaTrashAlt />
             <p className='text-xs text-neutral-500 '>eliminar todos los pedidos</p>
           </button>
         </div>
       </div>
-      <button className='font-Papyrus m-5 p-3 w-fit shadow-inner rounded-lg border border-button focus:text-white focus:bg-logo'>Enviar ideas</button>
-      <article className='p-5 m-5 shadow-sm '>
+      <button
+        className='font-Papyrus m-5 p-3 w-fit shadow-inner rounded-lg border border-button focus:text-white focus:bg-logo lg:mx-20 2xl:mx-44'>Enviar ideas</button>
+      <article className='p-5 m-5 shadow-sm lg:mx-14 2xl:mx-44'>
         <h1 className='font-Papyrus py-5'>Nuestros productos</h1>
         {products.map((product) =>
           <ProductsItem key={product.id} data={product} addToCart={addToCart} />)}

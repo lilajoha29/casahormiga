@@ -49,7 +49,7 @@ const FormBrands3 = () => {
       >
         {({values, errors, touched, handleSubmit, handleChange, handleBlur}) => (
           <Form
-            className='flex flex-col p-8 font-Papyrus'
+            className='flex flex-col p-8 font-Papyrus lg:px-20 2xl:px-44'
             onSubmit={handleSubmit}>
             <div className='flex flex-row items-center'>
               <label for="name" className=''>Nombre</label>

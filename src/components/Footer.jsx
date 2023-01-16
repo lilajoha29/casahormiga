@@ -10,24 +10,26 @@ import {AiFillTwitterCircle} from 'react-icons/ai'
 const Footer = () => {
   return (
     <div className=''>
-      <img src={Banner} className='absolute w-96 h-28'></img>
-      <div className='flex flex-row   '>
-          <img src={LogoW} className=' h-24 z-40 m-2 pl-8 '></img>
+      <img src={Banner}
+        className='absolute w-96 h-28 sm:w-full sm:h-32 xl:mt-3 lg:mt-3 lg:h-40 xl:h-44'></img>
+      <div className='flex flex-row justify-around lg:py-5'>
+        <img src={LogoW}
+          className=' h-24 z-40 m-2 pl-8 sm:h-28 md:h-32'></img>
         <div className='flex flex-col justify-center px-10 ml-5'>
           <a href=''
             className='z-40 flex flex-row text-white py-1'>
-            <AiFillInstagram className='text-xl '/>
-            <h2 className='font-Papyrus px-2' >casa_hormiga</h2>
+            <AiFillInstagram className='text-xl md:text-2xl'/>
+            <h2 className='font-Papyrus md:text-xl px-2' >casa_hormiga</h2>
           </a>
           <a href=''
             className='z-40 flex flex-row text-white py-1'>
-            <IoLogoWhatsapp className='text-xl' />
-            <h2 className='font-Papyrus px-2' >315 6819046</h2>
+            <IoLogoWhatsapp className='text-xl md:text-2xl' />
+            <h2 className='font-Papyrus md:text-xl px-2 ' >315 6819046</h2>
           </a>
           <a href=''
             className='z-40 flex flex-row text-white py-1'>
-            <AiFillTwitterCircle className='text-xl' />
-            <h2 className='font-Papyrus px-2 ' >casa_hormiga</h2>
+            <AiFillTwitterCircle className='text-xl md:text-2xl' />
+            <h2 className='font-Papyrus px-2 md:text-xl' >casa_hormiga</h2>
           </a>
         </div>
       </div>

@@ -38,13 +38,13 @@ const MoneyboxPigB1 = ({ data, addToCart }) => {
   return (
     <div>
       <Header />
-      <div className=''>
+      <div className='md:flex '>
         {/* carrusel */}
-        <div className='w-full m-auto pt-16 px-4 relative '>
+        <div className='w-full m-auto pt-16 px-4 relative md:py-16 md:px-2'>
           <div
-            className=' rounded-2xl bg-center bg-cover duration-500'
+            className=' rounded-2xl bg-center bg-cover duration-500 '
           >
-            <img  classname='w-44 h-44' src={slides[currentIndex]}></img>
+            <img  classname=' ' src={slides[currentIndex]}></img>
           </div>
           
           <div className=' group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white'>
@@ -66,7 +66,7 @@ const MoneyboxPigB1 = ({ data, addToCart }) => {
             ))}
           </div>
         </div>        
-        <div className="flex flex-col p-5 font-Papyrus ">
+        <div className="flex flex-col p-5 font-Papyrus md:py-16">
           <h1 className='font-Papyrus py-5 text-2xl'>
             Alcancía Marrano</h1>
           <h2 className='font-Papyrus text-2xl'>$ 30</h2>
@@ -76,11 +76,12 @@ const MoneyboxPigB1 = ({ data, addToCart }) => {
             Medidas: ancho 17cm, alto 17cm, largo 18cm</h2>
           <h2 className='font-Papyrus'>
             Material: MDF de 3mm de espesor</h2>
-        </div>
-          <button 
-          className=' m-5 p-3 w-fit shadow-inner rounded-lg border border-button focus:text-white focus:bg-logo'
+          <button
+            className=' m-5 p-3 w-fit shadow-inner rounded-lg border border-button focus:text-white focus:bg-logo'
           // onClick={() => addToCart(id)}
           >Añadir a el Carrito</button>
+        </div>
+          
       </div>
       <Footer />
     </div>

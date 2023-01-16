@@ -40,9 +40,9 @@ const SignStickerB2 = () => {
   return (
     <div>
       <Header />
-      <div className=''>
+      <div className='md:flex'>
         {/* carrusel */}
-        <div className='w-full m-auto pt-16 px-4 relative '>
+        <div className='w-full m-auto pt-16 px-4 relative md:py-16 md:px-2'>
           <div
             className=' rounded-2xl bg-center bg-cover duration-500'
           >
@@ -68,7 +68,7 @@ const SignStickerB2 = () => {
             ))}
           </div>
         </div>     
-        <div className="flex flex-col p-5  font-Papyrus">
+        <div className="flex flex-col p-5  font-Papyrus md:py-16">
           <h1 className='font-Papyrus py-5 text-2xl'>
             Símbolos</h1>
           <h2 className='font-Papyrus text-2xl'>$ 5 - $ 10</h2>
@@ -78,14 +78,15 @@ const SignStickerB2 = () => {
             Medidas: una hoja tamaño carta de stikers hasta 5cm diametro. </h2>
           <h2 className='font-Papyrus'>
             Material: vinilo imprimible adhesivo</h2>
+          <div className='flex flex-col  font-Papyrus '>
+            <h2 className='font-Papyrus py-5'>
+              Diseño único de acuerdo a tu gusto o necesidad asi que escoge la temática
+            </h2>
+            {/* en este espacio va el input */}
+            <button className=' m-5 p-3 w-fit shadow-inner rounded-lg border border-button focus:text-white focus:bg-logo'>Añadir a el Carrito</button>
+          </div>
+
         </div>
-        <div className='flex flex-col px-5 font-Papyrus '>
-          <h2 className='font-Papyrus'>
-            Diseño único de acuerdo a tu gusto o necesidad asi que escoge la temática
-          </h2>
-          {/* en este espacio va el input */}
-        </div>
-        <button className=' m-5 p-3 w-fit shadow-inner rounded-lg border border-button focus:text-white focus:bg-logo'>Añadir a el Carrito</button>
       </div>
       <Footer />
     </div>

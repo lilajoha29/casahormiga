@@ -13,11 +13,11 @@ const Brands2 = () => {
     <div>
       <Header />
       <div className='flex flex-col items-center justify-center p-10  font-Papyrus'>
-        <h1 className='p-5 text-xl'>Crafter</h1>
-        <h3 className='text-center '>Las impresiones en vinilo solucionan tu vida ya sea para lo que necesites puedes escoger la temática que necesites y serán diseñadas solo para ti y adornes lo que quieras y personaliza tu hogar.</h3>
+        <h1 className='p-5 text-xl md:text-2xl'>Crafter</h1>
+        <h3 className='text-center md:text-lg'>Las impresiones en vinilo solucionan tu vida ya sea para lo que necesites puedes escoger la temática que necesites y serán diseñadas solo para ti y adornes lo que quieras y personaliza tu hogar.</h3>
       </div>
-      <div className='grid grid-cols-2 px-3 py-5'>
-        <Link to="/BuffetStickerB2" className='flex flex-col items-center justify-center py-3'>
+      <div className='grid grid-cols-2 px-3 py-5 lg:grid lg:grid-cols-6   '>
+        <Link to="/BuffetStickerB2" className='flex flex-col items-center justify-center py-3 lg:col-span-2'>
           <img
             src={buffetSticker}
             alt="buffet Sticker"
@@ -25,7 +25,7 @@ const Brands2 = () => {
           <h2 className='font-Papyrus'>Nombres Alacena</h2>
           <h2 className='font-Papyrus'>$ 5 - $ 10</h2>
         </Link>
-        <Link to="/SignStickerB2" className='flex flex-col items-center justify-center py-3'>
+        <Link to="/SignStickerB2" className='flex flex-col items-center justify-center py-3 lg:col-span-2'>
           <img
             src={SignSticker}
             alt="Sign Sticker"
@@ -33,7 +33,7 @@ const Brands2 = () => {
           <h2 className='font-Papyrus'>Símbolos</h2>
           <h2 className='font-Papyrus'>$ 5 - $ 10</h2>
         </Link>
-        <Link to="/MemesStickerB2" className='flex flex-col items-center justify-center py-3'>
+        <Link to="/MemesStickerB2" className='flex flex-col items-center justify-center py-3 lg:col-span-2'>
           <img
             src={memesStiker}
             alt="memes Stiker"
@@ -41,7 +41,8 @@ const Brands2 = () => {
           <h2 className='font-Papyrus'>Memes</h2>
           <h2 className='font-Papyrus'>$ 5 - $ 10</h2>
         </Link>
-        <Link to="/NameStickerB2" className='flex flex-col items-center justify-center py-3'>
+        <Link to="/NameStickerB2"
+          className='flex flex-col items-center justify-center py-3 lg:col-span-3 '>
           <img
             src={nameSticker}
             alt="name Sticker"
@@ -50,7 +51,7 @@ const Brands2 = () => {
           <h2 className='font-Papyrus'>$ 5 - $ 10</h2>
         </Link>
         <Link to="/GameStickerB2"
-          className='flex flex-col items-center justify-center py-3 col-span-2'>
+          className='flex flex-col items-center justify-center py-3 col-span-3'>
           <img
             src={gameStiker}
             alt="game Stiker"

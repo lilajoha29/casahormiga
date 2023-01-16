@@ -16,7 +16,7 @@ const Brands2 = () => {
         <h1 className='p-5 text-xl md:text-2xl'>Crafter</h1>
         <h3 className='text-center md:text-lg'>Las impresiones en vinilo solucionan tu vida ya sea para lo que necesites puedes escoger la temática que necesites y serán diseñadas solo para ti y adornes lo que quieras y personaliza tu hogar.</h3>
       </div>
-      <div className='grid grid-cols-2 px-3 py-5 lg:grid lg:grid-cols-6   '>
+      <div className='grid-cols-2 px-3 py-5 lg:grid lg:grid-cols-6   '>
         <Link to="/BuffetStickerB2" className='flex flex-col items-center justify-center py-3 lg:col-span-2'>
           <img
             src={buffetSticker}

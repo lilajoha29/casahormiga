@@ -16,7 +16,7 @@ const Footer = () => {
         <img src={LogoW}
           className=' h-24 z-40 m-2 pl-8 sm:h-28 md:h-32'></img>
         <div className='flex flex-col justify-center px-10 ml-5'>
-          <a href=''
+          <a href='https://t.co/ESE1QPVtc8'
             className='z-40 flex flex-row text-white py-1'>
             <AiFillInstagram className='text-xl md:text-2xl'/>
             <h2 className='font-Papyrus md:text-xl px-2' >casa_hormiga</h2>
@@ -26,7 +26,7 @@ const Footer = () => {
             <IoLogoWhatsapp className='text-xl md:text-2xl' />
             <h2 className='font-Papyrus md:text-xl px-2 ' >315 6819046</h2>
           </a>
-          <a href=''
+          <a href='https://mobile.twitter.com/casa_hormiga'
             className='z-40 flex flex-row text-white py-1'>
             <AiFillTwitterCircle className='text-xl md:text-2xl' />
             <h2 className='font-Papyrus px-2 md:text-xl' >casa_hormiga</h2>
